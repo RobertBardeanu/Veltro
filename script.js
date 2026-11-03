@@ -1,4 +1,3 @@
-let mainexistirt=false;
 let post_button=document.querySelector("#post_button");
 let container3=document.querySelector(".container3")
 post_button.addEventListener("click", function (e) {
