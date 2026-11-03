@@ -1,0 +1,71 @@
+*{    
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: system-ui, sans-serif;
+color:#2D3436;
+  background-color: rgba(241, 14, 14, 0.2);
+
+ 
+}
+.container{
+
+    
+    display: flex;
+flex-direction: column;
+    align-items: center;
+    
+
+    margin-top: 15%;
+    
+}
+.container div {
+    color: inherit;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+  width: 500px;
+  height: 250px;
+  border: 2px solid rgb(51, 46, 46);
+ background-color: rgb(255, 255, 255);
+
+  border-radius: 10px;
+    
+}
+.container div h2 {
+margin-bottom: 10px;
+}
+.container div button{
+    color: inherit;
+    margin-top: 10px;
+    border-radius: 10%;
+    width: 100px;
+    height: 25px;
+    background-color: #B86B77;
+    margin-bottom: 10px;
+}
+.container img{
+    height: 50px;
+}
+#container{
+    position: fixed;
+ 
+    margin-left: -100px;
+    margin-top: 5%;
+    align-items: center;
+
+    }
+#motto{
+    color: inherit;
+    word-spacing:25px;
+         rotate: -90deg;
+     background-color: rgb(255, 254, 254);
+         border: 2px solid rgb(51, 46, 46);
+
+}
+#motto h2{
+    font-size: 50px;
+}
+
